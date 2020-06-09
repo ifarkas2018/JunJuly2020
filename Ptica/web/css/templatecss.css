@@ -1,0 +1,133 @@
+/* 
+    templatecss.css : CSS pravila korišćena u navigaciji i footer-u, veličina fonta i boja teksta
+    Kreiran   : 17-Sep-2018, 09:37:30
+    Autor     : Ingrid Farkaš
+    Projekat  : Ptica
+*/
+
+
+/* stil korišćen u footer-u */
+.footer {
+    height: auto; 
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+    background: -webkit-linear-gradient(to right, rgb(180, 180, 180), rgb(162, 166, 168));
+    font-weight: 600;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(126, 146, 137), rgb(133, 148, 141)); 
+}
+
+/* stil za h3 u footer-u */
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+} 
+
+/* stil za listu u footer-u */
+.footer ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+/* stilovi za linkove (u listi) u footer-u */
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+/* boja linkova u listi */
+.footer a {
+    color: #fff;
+} 
+
+/* boja pozadine navigacije */
+.navbar {
+    background-color: rgb(180, 187, 184) !important;
+} 
+
+ /* boja imena knjižare u navigaciji */
+.navbar .navbar-brand {
+    color: white;
+}
+
+/* boja na hover imena knjižare(u navigaciji) */
+.navbar .navbar-brand:hover {
+    color: black;
+}
+
+/* bela boja linka(u navigaciji) */
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* boja na hover imena knjižare(u navigaciji) */
+.navbar .nav-link:hover {
+    color: black !important;
+}
+
+/* boja linka na padajućem meniju */
+.navbar .nav-item .dropdown-menu .dropdown-item {
+    color: black;
+}
+
+/* boja hover linka na padajućem meniju */
+.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+    color: black !important;
+    background-color: white;
+    opacity: 0.5;
+}
+
+/* boja pozadine ikone */
+.navbar-toggler {
+    background-color: white;
+}
+
+.text_size {
+    font-size: 80%;
+}
+
+/* stil imena knjižare korišćena u naslovu(header) */
+.title-text {
+    font-size: 30pt;
+    padding-bottom: 5px;
+}
+
+/* Veličina fonta teksta korišćena u footer-u */
+.smaller-text {
+    font-size: 10pt;
+}
+
+/* siva pozadina stranice */
+.greybckgr {
+    background-color: rgb( 180, 187, 184 );   
+}
+
+/* bela pozadina na stranici */
+.whitebckgr {
+    background-color: white;
+}
+
+/* padding na dnu loga */
+.img-logo {
+    padding-bottom: 20px;
+}
+
+/* klasa za centriranje slike */
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
